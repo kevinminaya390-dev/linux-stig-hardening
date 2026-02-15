@@ -104,7 +104,7 @@ Configured `/etc/pam.d/common-auth` and `/etc/security/faillock.conf`:
 - unlock_time = 900
 - audit
 
-![Faillock Config](screenshots/faillock-implementation.png)
+![Faillock Config](screenshots/faillock-implemenatation.png)
 
 Verification:
 
