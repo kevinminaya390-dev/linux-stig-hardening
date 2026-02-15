@@ -186,4 +186,3 @@ This configuration significantly improves system security posture and aligns wit
 
 Kevin Minaya  
 Cybersecurity Professional  
-Virginia Tech BIT – Cybersecurity Management & Analytics  
