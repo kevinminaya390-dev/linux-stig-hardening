@@ -98,7 +98,7 @@ Modified `/etc/login.defs` and verified settings:
 
 #6 Account Lockout Policy (Faillock)
 
-Installation of PAM Modules
+Installation of PAM Modules:
 
 ![PAMInstallation](screenshots/pam-modules-install.png)
 
