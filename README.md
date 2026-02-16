@@ -82,6 +82,7 @@ Configured `/etc/security/pwquality.conf`:
 - difok = 4
 - minclass = 4
 - maxrepeat = 3
+- retry = 3
 
 ![Password Aging](screenshots/password-policy.png)
   
@@ -97,7 +98,11 @@ Modified `/etc/login.defs` and verified settings:
 
 #6 Account Lockout Policy (Faillock)
 
-Configured `/etc/pam.d/common-auth` and `/etc/security/faillock.conf`:
+Installation of PAM Modules
+
+![PAMInstallation](scfeenshots/pam-modules-install.png)
+
+Configured `/etc/security/faillock.conf`:
 
 - deny = 3
 - unlock_time = 900
