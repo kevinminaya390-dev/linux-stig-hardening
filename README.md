@@ -100,7 +100,7 @@ Modified `/etc/login.defs` and verified settings:
 
 Installation of PAM Modules
 
-![PAMInstallation](scfeenshots/pam-modules-install.png)
+![PAMInstallation](screenshots/pam-modules-install.png)
 
 Configured `/etc/security/faillock.conf`:
 
