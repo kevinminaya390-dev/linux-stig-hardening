@@ -68,13 +68,13 @@ Verified banner configuration from remote connection:
 
 #4 Password Complexity Enforcement (pwquality)
 
-Installation of pwqualtiy:
+Installation of pwquality:
 
 ![Password Policy](screenshots/pwquality-password.png)
 
 ---
 
-#5 Password Aging Policy
+#5 Password Complexity/Aging Policy
 
 Configured `/etc/security/pwquality.conf`:
 
