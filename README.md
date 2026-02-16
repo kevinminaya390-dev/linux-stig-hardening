@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project demonstrates hands-on Linux system hardening aligned with DISA STIG (Security Technical Implementation Guide) principles.
+This personal project demonstrates hands-on Linux system hardening aligned with DISA STIG (Security Technical Implementation Guide) principles.
 
 The objective was to secure an Ubuntu 24.04 LTS virtual machine by applying security controls related to:
 
@@ -168,21 +168,6 @@ This configuration significantly improves system security posture and aligns wit
 
 ---
 
-# Skills Demonstrated
-
-- Linux system administration
-- STIG interpretation and implementation
-- SSH hardening
-- PAM configuration
-- Account lockout mechanisms
-- Audit logging configuration
-- Sudo policy enforcement
-- File permission auditing
-- Security documentation
-
----
-
 # Author
 
 Kevin Minaya  
-Cybersecurity Professional  
