@@ -130,10 +130,6 @@ Verified sudo logging:
 
 ![Sudo Logging](screenshots/sudo-logging-enforced.png)
 
-Log verification:
-
-![Sudo Log Verification](screenshots/sudo-logging-enforced.png)
-
 ---
 
 #8 Auditd Enablement
