@@ -29,7 +29,7 @@ This project simulates a DoD-aligned secure configuration environment.
 
 ---
 
-# 1️⃣ SSH Service Enablement
+#1 SSH Service Enablement
 
 Enabled and verified OpenSSH service.
 
@@ -37,7 +37,7 @@ Enabled and verified OpenSSH service.
 
 ---
 
-# 2️⃣ SSH Configuration Hardening
+#2 SSH Configuration Hardening
 
 Modified `/etc/ssh/sshd_config` with STIG-aligned settings:
 
@@ -45,7 +45,6 @@ Modified `/etc/ssh/sshd_config` with STIG-aligned settings:
 - MaxAuthTries 3
 - X11Forwarding no
 - LoginGraceTime 30
-- Banner /etc/issue.net
 
 ![SSH Config Changes](screenshots/sshd-config.png)
 
@@ -55,7 +54,7 @@ Restarted SSH service:
 
 ---
 
-# 3️⃣ Login Banner Implementation
+#3 Login Banner Implementation
 
 Created and verified a legal login banner.
 
@@ -67,7 +66,15 @@ Verified banner configuration from remote connection:
 
 ---
 
-# 4️⃣ Password Complexity Enforcement (pwquality)
+#4 Password Complexity Enforcement (pwquality)
+
+Installation of pwqualtiy:
+
+![Password Policy](screenshots/pwquality-password.png)
+
+---
+
+#5 Password Aging Policy
 
 Configured `/etc/security/pwquality.conf`:
 
@@ -76,27 +83,19 @@ Configured `/etc/security/pwquality.conf`:
 - minclass = 4
 - maxrepeat = 3
 
-![Password Policy](screenshots/pwquality-password.png)
-
----
-
-# 5️⃣ Password Aging Policy
-
-Modified `/etc/login.defs`:
+![Password Aging](screenshots/password-policy.png)
+  
+Modified `/etc/login.defs` and verified settings:
 
 - PASS_MAX_DAYS 60
 - PASS_MIN_DAYS 1
 - PASS_WARN_AGE 7
 
-![Password Aging](screenshots/password-policy.png)
-
-Verified settings:
-
 ![Password Aging Verification](screenshots/more-password-policy.png)
 
 ---
 
-# 6️⃣ Account Lockout Policy (Faillock)
+#6 Account Lockout Policy (Faillock)
 
 Configured `/etc/pam.d/common-auth` and `/etc/security/faillock.conf`:
 
@@ -116,7 +115,7 @@ Confirmed root lock enforcement:
 
 ---
 
-# 7️⃣ Sudo Logging Enforcement
+#7 Sudo Logging Enforcement
 
 Modified `/etc/sudoers` to log all sudo activity:
 
@@ -132,7 +131,7 @@ Log verification:
 
 ---
 
-# 8️⃣ Auditd Enablement
+#8 Auditd Enablement
 
 Installed and enabled auditd service.
 
@@ -144,7 +143,7 @@ Verified audit logs:
 
 ---
 
-# 9️⃣ World-Writable File Scan
+#9 World-Writable File Scan
 
 Scanned for insecure world-writable files:
 
